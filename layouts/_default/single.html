@@ -1,6 +1,44 @@
 {{ define "main" }}
-  <article>
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
+<main class="main-content">
+  <article class="post">
+
+    <header class="post-header">
+      <h1>{{ .Title }}</h1>
+      <p class="post-meta">
+        <span>Published on {{ .Date.Format "2006-01-02" }}</span>
+        {{ with .Lastmod }}
+          <span> | Updated on {{ .Format "2006-01-02" }}</span>
+        {{ end }}
+        <span> | {{ .ReadingTime }} min read</span>
+      </p>
+    </header>
+
+    <section class="post-content">
+      {{ .Content }}
+    </section>
+
+    {{ if .Params.tags }}
+      <footer class="post-tags">
+        <strong>Tags:</strong>
+        {{ range .Params.tags }}
+          <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+      </footer>
+    {{ end }}
+<!-- 
+    <nav class="post-navigation">
+      <div class="nav-prev">
+        {{ with .Prev }}
+          <a href="{{ .RelPermalink }}">&larr; Previous: {{ .Title }}</a>
+        {{ end }}
+      </div>
+      <div class="nav-next">
+        {{ with .Next }}
+          <a href="{{ .RelPermalink }}">Next: {{ .Title }} &rarr;</a>
+        {{ end }}
+      </div>
+    </nav> -->
+
   </article>
+</main>
 {{ end }}

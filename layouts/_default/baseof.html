@@ -1,11 +1,58 @@
+<!-- File: layouts/_default/baseof.html -->
 <!DOCTYPE html>
 <html lang="en">
-{{ partial "head.html" . }}
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
 <body>
-  {{ partial "header.html" . }}
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  {{ partial "footer.html" . }}
+  <header class="top-header">
+      <div class="wrapper">
+        <h1>TFT Display Blog</h1>
+      </div>
+    </header>
+
+  <div id="wrapper" style="display: flex; min-height: 100vh;">
+    <aside class="sidebar">
+      <div class="site-logo" style="border-bottom: 1px solid #e5e7eb;;">
+        <a href="/">
+          <img src="/web-app-manifest-512x512.png" alt="TFT Display Logo">
+        </a>
+      </div>
+      <h2>Docs Navigation</h2>
+      <nav>
+        <ul style="list-style: none; padding-left: 0;">
+          <li><strong>TFT Guides</strong>
+            <ul>
+              <li><a href="/tft-guides/fpc-layout/">FPC Layout</a></li>
+              <li><a href="/tft-guides/brightness-calibration/">Brightness Calibration</a></li>
+            </ul>
+          </li>
+          <li><strong>Interface Standards</strong>
+            <ul>
+              <li><a href="/interface-standards/mipi-vs-lvds/">MIPI vs LVDS</a></li>
+              <li><a href="/interface-standards/rgb-mcu-spi/">RGB / MCU / SPI</a></li>
+            </ul>
+          </li>
+          <li><strong>FAQ</strong>
+            <ul>
+              <li><a href="/faq/faq-general/">General Questions</a></li>
+            </ul>
+          </li>
+          <li><strong>About us</strong>
+            <ul>
+              <li><a href="/about-us/">About us</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <main style="flex: 1; padding: 2rem;">
+
+      {{ block "main" . }}{{ end }}
+    </main>
+  </div>
 </body>
+
 </html>
