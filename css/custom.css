@@ -92,9 +92,33 @@ header, footer {
 }
 
 .top-header {
-  background-color: #00897C;
+  background-color: #CCE0F5;
   color: white;
   padding: 12px 24px;
-  font-size: 1.2rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.logo-link {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  width: 128px;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2.2rem;
   font-weight: 600;
+  color: #086BEC;
 }
