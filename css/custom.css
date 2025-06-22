@@ -21,6 +21,10 @@ header, footer {
   line-height: 1.8;
 }
 
+.post-header{
+  background-color: #FFFFFF;
+}
+
 .post-header h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
@@ -150,4 +154,72 @@ header, footer {
   font-size: 2.4rem;
   font-weight: 600;
   color: #086BEC;
+}
+
+.homepage-intro {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.homepage-intro h1 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #086BEC;
+}
+
+.main-content .post{
+  min-width: 1200px;
+}
+
+.main-section article ul {
+  margin-left: 40px;
+}
+
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid #ddd;
+  table-layout: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.post-content thead {
+  background-color: #CDE0F6;
+  color: #096BEC;
+}
+
+.post-content thead th {
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 0.3px;
+}
+
+.post-content tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.post-content tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.post-content tbody td {
+  padding: 12px 15px;
+  vertical-align: top;
+  font-size: 15px;
+  color: #333;
+}
+
+.post-content tbody tr:hover {
+  background-color: #f1f1f1;
 }
