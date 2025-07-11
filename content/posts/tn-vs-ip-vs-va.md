@@ -139,7 +139,7 @@ When designing embedded systems, TFT panel configuration goes beyond selecting t
 
 If you're working on custom TFT displays with RK3566 or other ARM SoCs, it's crucial to configure the display correctly in your Linux device tree or Android BSP.
 
-You can find [open-source examples and configuration guides here](https://github.com/Kevin109/rocktech-tft-display-configs), which include display init sequences, device tree snippets, and reference settings for panels like RK050HR18 and RK070CU01.
+You can find [open-source examples and configuration guides here](https://kevin109.github.io/github-display-config), which include display init sequences, device tree snippets, and reference settings for panels like RK050HR18 and RK070CU01.
 
 ---
 
@@ -150,5 +150,3 @@ Choosing between TN, IPS, and VA panels depends on your application's priorities
 For embedded system developers and industrial display engineers, IPS and VA panels often deliver the best balance between performance and visual quality—especially when paired with optimized panel configuration like those shared in the [Rocktech TFT Display GitHub repository](https://github.com/Kevin109/rocktech-tft-display-configs).
 
 ---
-
-> *Interested in exploring custom TFT LCD configurations? Follow our updates and tools at [tft-display.net](https://tft-display.net/).*

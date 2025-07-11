@@ -123,8 +123,6 @@ These are **refinements of IPS technology** developed by different manufacturers
 
 These variants maintain the core strengths of IPS—excellent color accuracy and viewing angle—while tuning performance for specific applications such as medical touchscreens, high-resolution control interfaces, or energy-efficient embedded devices.
 
-[Display Ninja explains panel differences in greater detail](https://www.displayninja.com/tft-vs-oled/).
-
 ## TFT LCD in Industrial vs Consumer Applications
 
 | Feature               | Consumer TFT | Industrial TFT Display           |
@@ -134,6 +132,9 @@ These variants maintain the core strengths of IPS—excellent color accuracy and
 | Lifespan              | 1–2 years    | 5–10 years or more               |
 | Customization         | Limited      | Custom FPC, housing, interface   |
 | Cost                  | Lower        | Higher, with enhanced durability |
+
+For a more focused look at how TFT LCDs are tailored for industrial use — including ruggedization, supply chain, and panel longevity — check out our dedicated article:
+👉 [Industrial TFT Display Overview](https://industrial-tft.com/posts/industrial-tft-overview/)
 
 ## Common Applications of TFT LCD
 
@@ -173,8 +174,6 @@ When choosing a TFT LCD module for your application, consider:
 * **Power budget**: Especially for battery-powered systems
 * **Mechanical fit**: Frame and FPC compatibility
 
-[Arduino’s embedded display guide](https://docs.arduino.cc/tutorials/portenta-h7/portenta-h7-display-guide) provides useful hardware integration tips.
-
 ## Comparison: TFT LCD vs OLED vs e-Paper
 
 | Technology | Strengths                        | Weaknesses                          |
@@ -211,8 +210,11 @@ TFT LCD technology continues to evolve and maintain dominance across diverse fie
 
 Whether you're building an embedded controller, upgrading a smart HMI, or developing a rugged portable device, understanding TFT LCD fundamentals will help you make informed display decisions and deliver excellent user experiences.
 
-For more on display industry trends and technologies, visit:
+## More Information
 
-* [Panelook](https://www.panelook.com/technology.html)
-* [Samsung Display](https://www.samsungdisplay.com/eng/)
-* [Arduino Display Integration](https://docs.arduino.cc/tutorials/portenta-h7/portenta-h7-display-guide)
+- For general background on TFT panel types, visit [Wikipedia on TFT LCD](https://en.wikipedia.org/wiki/TFT_LCD){:rel="nofollow"}.
+- For technical datasheets of TFT modules, see [Panelook](https://www.panelook.com/){:rel="nofollow"}.
+
+
+
+
