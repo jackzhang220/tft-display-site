@@ -20,8 +20,6 @@ TFT LCDs belong to the family of active-matrix displays. Each pixel is coupled w
 * Scalability for various sizes
 * Durable and lightweight designs
 
-[Learn more about TFT and LCD basics from Panelook](https://www.panelook.com/technology.html).
-
 ## How TFT LCD Works
 
 At its core, a TFT LCD manipulates liquid crystals using electrical voltage. A typical structure includes:
@@ -34,8 +32,6 @@ At its core, a TFT LCD manipulates liquid crystals using electrical voltage. A t
 6. **Top polarizer** – Further filters and aligns outgoing light.
 
 Each pixel’s brightness and color are controlled via the voltage applied to its respective transistor.
-
-[Samsung Display](https://www.samsungdisplay.com/eng/) offers insights into the underlying physics of TFT LCD modules.
 
 ## Advantages of TFT LCD Technology
 
@@ -210,10 +206,7 @@ TFT LCD technology continues to evolve and maintain dominance across diverse fie
 
 Whether you're building an embedded controller, upgrading a smart HMI, or developing a rugged portable device, understanding TFT LCD fundamentals will help you make informed display decisions and deliver excellent user experiences.
 
-## More Information
-
-- For general background on TFT panel types, visit [Wikipedia on TFT LCD](https://en.wikipedia.org/wiki/TFT_LCD){:rel="nofollow"}.
-- For technical datasheets of TFT modules, see [Panelook](https://www.panelook.com/){:rel="nofollow"}.
+- Learn more from <a href="https://en.wikipedia.org/wiki/TFT_LCD" rel="nofollow" target="_blank">Wikipedia</a> and <a href="https://www.panelook.com/" rel="nofollow" target="_blank">Panelook</a>.
 
 
 
