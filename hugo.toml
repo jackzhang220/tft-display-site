@@ -1,3 +1,8 @@
 baseURL = 'https://tft-display.net/'
 languageCode = 'en-us'
 title = 'TFT Display Technology'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
