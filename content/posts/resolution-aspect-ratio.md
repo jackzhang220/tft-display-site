@@ -12,7 +12,7 @@ When designing or selecting a TFT LCD for an embedded product, two critical tech
 
 This article explores both concepts in depth, helping developers and engineers make informed choices when specifying displays for industrial and consumer applications.
 
-➡️ See related analysis: [Why Display Resolution and Aspect Ratio Matter in Embedded Systems](https://www.embeddedsbc.com/2025/07/why-display-resolution-and-aspect-ratio.html)
+➡️ See related analysis: [TFT Display Interfaces for Embedded Systems](https://sites.google.com/view/embedded-sbc/display-interface)
 
 ---
 
@@ -138,5 +138,5 @@ Want more? Explore display tuning, bonding options, and calibration in our other
 
 ➡️ See also [high brightness display series](https://www.rocktech.com.hk/high-brightness-displays/)
 
-➡️ <a href="https://en.wikipedia.org/wiki/Display_resolution" rel="nofollow">Learn more about display resolution on Wikipedia</a>
+➡️ <a href="https://en.wikipedia.org/wiki/Display_resolution" rel="nofollow">Learn more about display resolution on Wikipedia</a><br>
 ➡️ <a href="https://www.panelook.com/" rel="nofollow">Explore global display panel database on Panelook</a>
