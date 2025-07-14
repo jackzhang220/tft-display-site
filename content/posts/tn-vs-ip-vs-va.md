@@ -147,6 +147,6 @@ You can find [open-source examples and configuration guides here](https://kevin1
 
 Choosing between TN, IPS, and VA panels depends on your application's priorities—speed, color fidelity, contrast, or cost. TN is excellent for responsiveness on a budget, IPS excels at color and angles, while VA offers deep contrast for immersive visuals.
 
-For embedded system developers and industrial display engineers, IPS and VA panels often deliver the best balance between performance and visual quality—especially when paired with optimized panel configuration like those shared in the [Rocktech TFT Display GitHub repository](https://github.com/Kevin109/rocktech-tft-display-configs).
+For embedded system developers and industrial display engineers, IPS and VA panels often deliver the best balance between performance and visual quality—especially when paired with optimized panel configuration like those shared in the <a href="https://github.com/Kevin109/rocktech-tft-display-configs" rel="nofollow" target="_blank">Rocktech TFT Display GitHub repository</a>.
 
 ---
