@@ -148,3 +148,10 @@ Choosing between TN, IPS, and VA panels depends on your application's priorities
 For embedded system developers and industrial display engineers, IPS and VA panels often deliver the best balance between performance and visual quality—especially when paired with optimized panel configuration like those shared in the <a href="https://github.com/Kevin109/rocktech-tft-display-configs" rel="nofollow" target="_blank">Rocktech TFT Display GitHub repository</a>.
 
 ---
+
+## Related Articles
+
+- [What is TFT LCD](/posts/what-is-tft-lcd/) — Learn the basics of TFT LCD technology and how it works in embedded and industrial applications.
+- [Resolution & Aspect Ratio](/posts/resolution-aspect-ratio/) — Understand how resolution and aspect ratio affect display performance and user experience.
+
+---

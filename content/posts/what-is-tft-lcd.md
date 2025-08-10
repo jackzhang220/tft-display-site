@@ -208,6 +208,13 @@ Whether you're building an embedded controller, upgrading a smart HMI, or develo
 
 - Learn more from <a href="https://en.wikipedia.org/wiki/TFT_LCD" rel="nofollow" target="_blank">Wikipedia</a> and <a href="https://www.panelook.com/" rel="nofollow" target="_blank">Panelook</a>.
 
+---
 
+## Related Articles
+
+- [Resolution & Aspect Ratio](/posts/resolution-aspect-ratio/) — Understand how resolution and aspect ratio affect display performance and user experience.
+- [TN vs IPS vs VA](/posts/tn-vs-ip-vs-va/) — Compare three major LCD panel technologies and choose the right one for your project.
+
+---
 
 

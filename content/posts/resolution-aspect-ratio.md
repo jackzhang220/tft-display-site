@@ -140,3 +140,11 @@ Want more? Explore display tuning, bonding options, and calibration in our other
 
 ➡️ <a href="https://en.wikipedia.org/wiki/Display_resolution" rel="nofollow">Learn more about display resolution on Wikipedia</a><br>
 ➡️ <a href="https://www.panelook.com/" rel="nofollow">Explore global display panel database on Panelook</a>
+
+
+---
+
+## Related Articles
+
+- [What is TFT LCD](/posts/what-is-tft-lcd/) — Learn the basics of TFT LCD technology and how it works in embedded and industrial applications.
+- [TN vs IPS vs VA](/posts/tn-vs-ip-vs-va/) — Compare three major LCD panel technologies and choose the right one for your project.
