@@ -1,0 +1,37 @@
+{{/* layouts/_default/terms.html */}}
+{{ define "title" -}}
+  {{ .Title }} | {{ .Site.Title }}
+{{- end }}
+
+{{ define "main" }}
+<article class="container">
+  <header style="margin:1rem 0 1.25rem">
+    <h1 style="margin:0 0 .25rem">{{ .Title }}</h1>
+    <p style="margin:0;color:#6b7280">Browse all topics used across this site.</p>
+  </header>
+
+  {{ $terms := .Data.Terms.Alphabetical }}
+  {{ if gt (len $terms) 0 }}
+  <ul style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.75rem;">
+    {{ range $terms }}
+      {{ $term  := .Term }}
+      {{ $count := .Count }}
+      {{ $page  := .Page }}
+      <li style="border:1px solid #e5e7eb;border-radius:10px;padding:.75rem .9rem;background:#fff;">
+        <a href="{{ if $page }}{{ $page.RelPermalink }}{{ else }}/tags/{{ $term | urlize }}/{{ end }}"
+           style="text-decoration:none;color:#0f172a;font-weight:700;">
+          {{ if $page }}{{ $page.Title }}{{ else }}{{ $term }}{{ end }}
+        </a>
+        <div style="color:#6b7280;font-size:.9rem;margin-top:.25rem">{{ $count }} posts</div>
+        <div style="margin-top:.35rem">
+          <a href="{{ if $page }}{{ $page.RelPermalink }}{{ else }}/tags/{{ $term | urlize }}/{{ end }}"
+             style="text-decoration:none;color:#2563eb;font-weight:600;">Browse →</a>
+        </div>
+      </li>
+    {{ end }}
+  </ul>
+  {{ else }}
+    <p>No tags yet.</p>
+  {{ end }}
+</article>
+{{ end }}

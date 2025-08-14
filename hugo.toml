@@ -2,6 +2,9 @@ baseURL = 'https://tft-display.net/'
 languageCode = 'en-us'
 title = 'TFT Display Technology'
 
+[taxonomies]
+  tag = "tags"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

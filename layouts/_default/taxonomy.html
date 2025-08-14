@@ -1,0 +1,82 @@
+{{/* layouts/_default/taxonomy.html */}}
+{{ define "title" -}}
+{{ .Title }} | {{ .Site.Title }}
+{{- end }}
+
+{{ define "main" }}
+<article class="container">
+    <header style="margin:1rem 0 1.25rem">
+        <h1 style="margin:0 0 .25rem">{{ .Title }}</h1>
+
+        {{/* 优先显示该 tag 的自定义简介：content/tags/<tag>/_index.md 的内容或 description */}}
+            {{ $intro := "" }}
+            {{ if .Content }}
+            {{ $intro = .Content | plainify }}
+            {{ else if .Params.description }}
+            {{ $intro = .Params.description }}
+            {{ else }}
+            {{ $intro = printf "Posts filed under the tag “%s”." .Title }}
+            {{ end }}
+            <p style="margin:0;color:#6b7280">{{ $intro }}</p>
+    </header>
+
+    {{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
+    {{ if gt (len $paginator.Pages) 0 }}
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;">
+        {{ range $paginator.Pages }}
+        <article style="position:relative;border:1px solid #e5e7eb;border-radius:10px;background:#fff;overflow:hidden;">
+            <a href="{{ .RelPermalink }}" style="position:absolute;inset:0;z-index:1;"></a>
+            <header style="padding:.9rem 1rem .25rem;border-bottom:1px solid #eef2f7;">
+                <h2 style="margin:0 0 .25rem;font-size:1.05rem;line-height:1.35;">
+                    <a href="{{ .RelPermalink }}" style="text-decoration:none;color:#0f172a;">{{ .Title }}</a>
+                </h2>
+                <div style="color:#6b7280;font-size:.85rem;">
+                    <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+                    {{ with .ReadingTime }} · {{ . }} min read{{ end }}
+                </div>
+            </header>
+            <div style="padding:.75rem 1rem 1rem;">
+                {{ $desc := default (.Summary | plainify) .Params.description }}
+                <p style="margin:0;color:#374151">{{ $desc | plainify | truncate 160 }}</p>
+            </div>
+        </article>
+        {{ end }}
+    </div>
+
+    <section style="margin-top:2rem;padding:1rem;border-top:1px solid #e5e7eb;">
+        <h2 style="font-size:1.1rem;margin:0 0 .75rem;">Related Pages</h2>
+        <ul style="margin:0;padding-left:1.2rem;">
+            <li><a href="http://localhost:1314/posts/what-is-tft-lcd/" style="color:#0f172a;text-decoration:none;">What
+                    is TFT LCD</a></li>
+            <li><a href="http://localhost:1314/posts/tn-vs-ip-vs-va/" style="color:#0f172a;text-decoration:none;">TN vs
+                    IPS vs VA</a></li>
+            <li><a href="http://localhost:1314/posts/resolution-aspect-ratio/"
+                    style="color:#0f172a;text-decoration:none;">Resolution & Aspect Ratio</a></li>
+        </ul>
+    </section>
+
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav style="display:flex;justify-content:center;align-items:center;gap:.75rem;margin:1rem 0;">
+        {{ with $paginator.Prev }}
+        <a href="{{ .URL }}"
+            style="padding:.45rem .8rem;border:1px solid #e5e7eb;border-radius:8px;text-decoration:none;color:#0f172a;">←
+            Newer</a>
+        {{ else }}
+        <span style="opacity:.5;padding:.45rem .8rem;border:1px solid #e5e7eb;border-radius:8px;">← Newer</span>
+        {{ end }}
+        <span style="color:#6b7280;">Page {{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
+        {{ with $paginator.Next }}
+        <a href="{{ .URL }}"
+            style="padding:.45rem .8rem;border:1px solid #e5e7eb;border-radius:8px;text-decoration:none;color:#0f172a;">Older
+            →</a>
+        {{ else }}
+        <span style="opacity:.5;padding:.45rem .8rem;border:1px solid #e5e7eb;border-radius:8px;">Older →</span>
+        {{ end }}
+    </nav>
+    {{ end }}
+    {{ else }}
+    <p>No posts under this tag yet.</p>
+    {{ end }}
+
+</article>
+{{ end }}

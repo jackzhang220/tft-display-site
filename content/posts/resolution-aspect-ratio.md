@@ -3,7 +3,8 @@ title: "Resolution and Aspect Ratio"
 seo\_title: "Understanding Resolution and Aspect Ratio in TFT LCD Displays"
 description: "Learn how screen resolution and aspect ratio impact image clarity, UI layout, and compatibility in TFT LCD displays. This guide covers common resolutions, standard aspect ratios, and design considerations for embedded and industrial applications."
 date: 2025-07-10
-keywords: \["TFT LCD", "Resolution", "Aspect Ratio", "Display Resolution", "Embedded Display","Screen Size"]
+keywords: ["TFT LCD", "Resolution", "Aspect Ratio", "Display Resolution", "Embedded Display","Screen Size"]
+tags: ["TFT LCD", "Resolution", "Aspect Ratio", "Display Resolution", "Embedded Display","Screen Size"]
 ---
 
 ## Understanding Resolution and Aspect Ratio in TFT LCD Displays

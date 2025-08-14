@@ -4,6 +4,7 @@ seo_title: "What is TFT LCD? A Comprehensive Guide to Thin-Film Transistor Displ
 description: "Explore the fundamentals of TFT LCD technology—its structure, working principles, panel types (TN, IPS, VA), industrial vs consumer differences, and common applications in embedded and medical systems."
 date: 2025-06-22
 keywords: ["TFT LCD", "Thin-Film Transistor", "Display Technology", "Industrial Display", "IPS vs TN", "Embedded Display", "LCD Panel", "Human Machine Interface"]
+tags: ["TFT", "IPS", "MIPI-DSI", "displays","TFT LCD"]
 ---
 
 TFT LCD (Thin-Film Transistor Liquid Crystal Display) is a sophisticated display technology used extensively across modern electronics. From smartphones and tablets to factory HMIs and medical monitors, TFT LCDs form the visual interface of countless devices. This article presents an in-depth look at TFT LCD technology—its working principle, structure, advantages, variants, and applications.

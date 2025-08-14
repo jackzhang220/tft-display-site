@@ -4,6 +4,8 @@ seo_title: "MIPI vs LVDS vs RGB: Interface Comparison for TFT LCD Displays in Em
 description: "Compare MIPI-DSI, LVDS, and RGB interfaces for TFT LCD modules. Learn their advantages, limitations, signal structures, and best use cases for embedded and industrial applications."
 date: 2025-08-01
 keywords: ["MIPI vs LVDS vs RGB", "LCD interface comparison", "MIPI-DSI", "LVDS TFT", "RGB display interface", "embedded display design", "TFT LCD connection", "industrial LCD interface"]
+
+tags: ["MIPI","LVDS","RGB","embedded display design", "TFT LCD connection", "industrial LCD interface"]
 ---
 
 When integrating a TFT LCD module into an embedded system, **choosing the right display interface** is one of the first and most important decisions. The interface determines:
