@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LVDS on TFT Display Technology</title><link>https://tft-display.net/tags/lvds/</link><description>Recent content in LVDS on TFT Display Technology</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tft-display.net/tags/lvds/index.xml" rel="self" type="application/rss+xml"/><item><title>MIPI vs LVDS vs RGB: Choosing the Right TFT LCD Interface</title><link>https://tft-display.net/posts/mipi-vs-lvds-vs-rgb/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://tft-display.net/posts/mipi-vs-lvds-vs-rgb/</guid><description>&lt;p>When integrating a TFT LCD module into an embedded system, &lt;strong>choosing the right display interface&lt;/strong> is one of the first and most important decisions. The interface determines:&lt;/p>
+&lt;ul>
+&lt;li>How data is transmitted between the main processor and the display.&lt;/li>
+&lt;li>The achievable resolution, refresh rate, and color depth.&lt;/li>
+&lt;li>Power consumption, EMI performance, and cable length tolerance.&lt;/li>
+&lt;/ul>
+&lt;p>Three of the most common interfaces in industrial and embedded designs are:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>MIPI-DSI (Mobile Industry Processor Interface – Display Serial Interface)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>LVDS (Low Voltage Differential Signaling)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>RGB Parallel Interface&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>This guide provides a detailed comparison of &lt;strong>MIPI vs LVDS vs RGB&lt;/strong>, explaining how each works, their strengths, weaknesses, and the scenarios where they perform best.&lt;/p></description></item></channel></rss>
