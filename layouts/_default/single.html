@@ -13,18 +13,20 @@
       </p>
     </header>
 
-    <section class="post-content">
-      {{ .Content }}
-    </section>
-
-    {{ if .Params.tags }}
-      <footer class="post-tags">
+        {{ if .Params.tags }}
+      <div class="post-tags">
         <strong>Tags:</strong>
         {{ range .Params.tags }}
           <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
         {{ end }}
-      </footer>
+      </div>
     {{ end }}
+
+    <section class="post-content">
+      {{ .Content }}
+    </section>
+
+
 <!-- 
     <nav class="post-navigation">
       <div class="nav-prev">
