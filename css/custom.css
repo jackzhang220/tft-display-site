@@ -36,10 +36,27 @@ header, footer {
   margin-bottom: 1.5rem;
 }
 
+.post-tags{
+  text-align: center;
+}
+
 .post-tags a {
-  margin-right: 0.5rem;
-  color: #2563EB;
+  display: inline-block;
+  background-color: #f3f4f6; /* 浅灰背景 */
+  color: #2563eb; /* 蓝色文字 */
+  padding: 0.3rem 0.6rem;
+  margin: 0 0.4rem 0.8rem 0;
+  font-size: 0.85rem;
+  border-radius: 9999px; /* 圆角胶囊 */
   text-decoration: none;
+  transition: all 0.2s ease;
+  border: 1px solid #e5e7eb; /* 浅灰边框 */
+}
+
+.post-tags a:hover {
+  background-color: #2563eb; /* 蓝色背景 */
+  color: #fff; /* 白色文字 */
+  border-color: #2563eb;
 }
 
 .post-navigation {
@@ -222,4 +239,11 @@ header, footer {
 
 .post-content tbody tr:hover {
   background-color: #f1f1f1;
+}
+
+footer strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: #374151; /* 深灰色标题 */
 }
