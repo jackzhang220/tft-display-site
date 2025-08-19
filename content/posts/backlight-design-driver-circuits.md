@@ -85,4 +85,4 @@ To extend lifetime:
 
 A well-designed backlight system is the backbone of any **TFT LCD display**, directly influencing image quality, power consumption, and product longevity. By combining an appropriate driver circuit, effective thermal management, and proper optical design, you can ensure consistent performance over the display’s entire service life.
 
-If you’re new to display technology, start with [What is TFT LCD](/posts/what-is-tft-lcd/) to understand the display stack, explore [TN vs IPS vs VA](/posts/tn-vs-ip-vs-va/) for panel technology differences, and check [Resolution & Aspect Ratio](/posts/resolution-aspect-ratio/) to align your backlight design with screen specifications.
+👉 For more resources on industrial displays and updates, visit [Industrial TFT Display Profile](https://linktr.ee/industrialtft).
